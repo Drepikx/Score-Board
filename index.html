@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home-side">
+                <h3 class="home">HOME</h3>
+                <div class="score">
+                    <span id="scorehome">0</span>
+                </div>
+                <div class="add-btn">
+                    <button class="plus" onclick="add1()">+1</button>
+                    <button class="plus" onclick="add2()">+2</button>
+                    <button class="plus" onclick="add3()">+3</button>
+                </div>
+                <button id="resetA" class="reset" onclick="resetA()">
+                    Reset
+                </button>
+            </div>
+            <div class="guest-side">
+                <h3 class="guest">GUEST</h3>
+                <div class="score">
+                    <span id="scoreaway">0</span>
+                </div>
+                <div class="add-btn">
+                    <button class="plus" onclick="add1B()">+1</button>
+                    <button class="plus" onclick="add2B()">+2</button>
+                    <button class="plus" onclick="add3B()">+3</button>
+                </div>
+                <button id="resetB" class="reset" onclick="resetB()">
+                    Reset
+                </button>
+            </div>
+        </div>
+        <script src="Index.js"></script>
+    </body>
+</html>
